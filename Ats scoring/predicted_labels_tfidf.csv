@@ -1,0 +1,11 @@
+Resume,Job Description,True Label,Predicted Score,Predicted Label
+"John Doe: Backend dev with Python, SQL, Django","Seeking a Backend Developer skilled in Python, SQL, Django",1,33.61,0
+"Jane Smith: Data scientist, Python, TensorFlow",Looking for a Backend Developer with Django,0,0.0,0
+"Mark Lee: Full-stack dev with React, Node.js",Hiring a Software Engineer with React and Node.js,1,31.13,0
+"Emily Clark: Marketing specialist, SEO, Google Ads",We need a Marketing Manager with SEO expertise,1,16.84,0
+"Chris Evans: Software Engineer, C++, Java",Looking for a Data Scientist with Python,0,0.0,0
+"Anna Taylor: Frontend dev, HTML, CSS, JavaScript",Hiring a Frontend Developer with JavaScript skills,1,18.44,0
+"Michael Brown: AI Engineer, PyTorch, NLP""",Seeking a Machine Learning Engineer with NLP experience,1,18.44,0
+"Sarah Wilson: Project Manager, Agile, Scrum",Hiring a Backend Developer with Python and SQL,0,0.0,0
+"David Kim: DevOps Engineer, AWS, Docker",Looking for a DevOps Engineer skilled in AWS and Docker,1,38.08,0
+"Laura Jones: Graphic Designer, Photoshop, Illustrator",Hiring a Software Developer with Python,1,0.0,0

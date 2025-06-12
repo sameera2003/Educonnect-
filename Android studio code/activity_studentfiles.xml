@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/txtYearTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Files for Your Year"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- List of uploaded files -->
+    <ListView
+        android:id="@+id/fileListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/yellow"
+        android:dividerHeight="2dp"
+        android:paddingBottom="16dp" />
+
+    <!-- Error or empty message -->
+    <TextView
+        android:id="@+id/txtEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No files available"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@color/yellow"
+        android:paddingTop="16dp" />
+
+</LinearLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:padding="16dp">-->
+
+<!--    &lt;!&ndash; Title &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/txtYearTitle"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Files for Your Year"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:paddingBottom="16dp" />-->
+
+<!--    &lt;!&ndash; List of uploaded files &ndash;&gt;-->
+<!--    <ListView-->
+<!--        android:id="@+id/fileListView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:divider="@android:color/darker_gray"-->
+<!--        android:dividerHeight="1dp"-->
+<!--        android:paddingBottom="16dp" />-->
+
+<!--    &lt;!&ndash; Error or empty message &ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/txtEmpty"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="No files available"-->
+<!--        android:textSize="18sp"-->
+<!--        android:gravity="center"-->
+<!--        android:visibility="gone"-->
+<!--        android:textColor="@android:color/holo_red_dark" />-->
+
+<!--</LinearLayout>-->

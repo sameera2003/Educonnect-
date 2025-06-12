@@ -1,0 +1,11 @@
+Template,Accuracy,Precision,Recall,F1 Score
+"John Doe: Backend dev with Python, SQL, Django",1.0,1.0,1.0,1.0
+"Jane Smith: Data scientist, Python, TensorFlow",1.0,0.0,0.0,0.0
+"Mark Lee: Full-stack dev with React, Node.js",1.0,1.0,1.0,1.0
+"Emily Clark: Marketing specialist, SEO, Google Ads",0.0,0.0,0.0,0.0
+"Chris Evans: Software Engineer, C++, Java",1.0,0.0,0.0,0.0
+"Anna Taylor: Frontend dev, HTML, CSS, JavaScript",1.0,1.0,1.0,1.0
+"Michael Brown: AI Engineer, PyTorch, NLP""",0.0,0.0,0.0,0.0
+"Sarah Wilson: Project Manager, Agile, Scrum",0.0,0.0,0.0,0.0
+"David Kim: DevOps Engineer, AWS, Docker",1.0,1.0,1.0,1.0
+"Laura Jones: Graphic Designer, Photoshop, Illustrator",0.0,0.0,0.0,0.0

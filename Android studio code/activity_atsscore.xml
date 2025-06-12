@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <!-- Top Yellow Section -->
+    <View
+        android:id="@+id/topSection"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/yellow"
+        android:layout_marginBottom="30dp" />
+
+    <!-- ATS Score Title -->
+    <TextView
+        android:id="@+id/textViewAtsScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATS Score: "
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Suggestions Title -->
+    <TextView
+        android:id="@+id/textViewSuggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suggestions: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:orientation="vertical"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:padding="20dp">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewAtsScore"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="ATS Score: "-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textViewSuggestions"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Suggestions: "-->
+<!--        android:textSize="16sp"-->
+<!--        android:layout_marginTop="20dp" />-->
+<!--</LinearLayout>-->
